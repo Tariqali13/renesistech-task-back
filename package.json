@@ -1,0 +1,48 @@
+{
+  "name": "social-link-back-src",
+  "version": "1.0.0",
+  "description": "Official social-link-back app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js -p $PORT"
+  },
+  "author": "RenesisTechTask",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "history": "^4.9.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.4",
+    "yup": "^0.27.0"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "@lildiary/svg-to-img": "^3.0.0",
+    "app-root-path": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.2",
+    "config": "^3.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "express-formidable": "^1.2.0",
+    "google-auth-library": "^7.0.4",
+    "joi-objectid": "^3.0.1",
+    "jquery": "^3.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "lodash.get": "^4.4.2",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.6.9",
+    "mongoose-float": "^1.0.4",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.6",
+    "response-time": "^2.3.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.0",
+    "wistia-js": "^1.0.0"
+  }
+}
